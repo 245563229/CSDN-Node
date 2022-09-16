@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <DownLoad /> -->
+    <FlexUniform />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import DownLoad from "./components/DownLoad";
+import FlexUniform from "./components/FlexUniform";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    DownLoad,
+    FlexUniform,
+  },
+};
 </script>
 
 <style>
