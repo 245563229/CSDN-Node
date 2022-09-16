@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <!-- <DownLoad /> -->
-    <FlexUniform />
+    <DownLoad />
+    <!-- <FlexUniform /> -->
   </div>
 </template>
 
