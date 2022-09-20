@@ -2,7 +2,8 @@
   <div id="app">
     <!-- <DownLoad /> -->
     <!-- <FlexUniform /> -->
-    <GaoMapVue></GaoMapVue>
+    <!-- <GaoMapVue></GaoMapVue> -->
+    <AntV></AntV>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import DownLoad from "./components/DownLoad";
 import FlexUniform from "./components/FlexUniform";
 import GaoMapVue from "./components/map/GaoMap.vue";
+import AntV from "./components/antvX6/AntV.vue";
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     DownLoad,
     FlexUniform,
     GaoMapVue,
+    AntV,
   },
 };
 </script>
