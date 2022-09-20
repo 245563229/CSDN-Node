@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <DownLoad />
+    <!-- <DownLoad /> -->
     <!-- <FlexUniform /> -->
+    <GaoMapVue></GaoMapVue>
   </div>
 </template>
 
 <script>
 import DownLoad from "./components/DownLoad";
 import FlexUniform from "./components/FlexUniform";
+import GaoMapVue from "./components/map/GaoMap.vue";
+
 export default {
   name: "App",
   components: {
     DownLoad,
     FlexUniform,
+    GaoMapVue,
   },
 };
 </script>
