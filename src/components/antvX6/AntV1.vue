@@ -2,11 +2,6 @@
   <div>
     <div id="Ceshi" />
     <div id="stencil" class="stencil"></div>
-    <div style="width: 500px; height: 50px; position: fixed; top: 0; left: 0">
-      <button @click="moveTo">平移</button>
-      <button @click="smallTwo">缩小0.5</button>
-      <button @click="bigTwo">放大0.5</button>
-    </div>
   </div>
 </template>
 
@@ -22,15 +17,6 @@ export default {
     this.initGraph();
   },
   methods: {
-    smallTwo() {
-      console.log("缩小0.5");
-    },
-    bigTwo() {
-      console.log("放大0.5");
-    },
-    moveTo() {
-      console.log("平移");
-    },
     initGraph() {
       // 2. 渲染画布
       const graph = new Graph({
@@ -42,8 +28,6 @@ export default {
           modifiers: "ctrl",
           minScale: 0.5,
           maxScale: 3,
-          width: 2000,
-          height: 600,
         },
         connecting: {
           router: {
